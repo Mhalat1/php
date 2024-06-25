@@ -1,0 +1,96 @@
+
+Define your dependencies.
+
+Would you like to define your dependencies (require) interactively [yes]? 
+Search for a package: 
+Would you like to define your dev dependencies (require-dev) interactively [yes]? 
+Search for a package: 
+Add PSR-4 autoload mapping? Maps namespace "Administrateur\Php" to the entered relative path. [src/, n to skip]: 
+
+{
+    "name": "administrateur/php",
+    "autoload": {
+        "psr-4": {
+            "Administrateur\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muttalip Halat",
+            "email": "halat@outlook.fr"
+        }
+    ],
+  - Locking psr/log (3.0.0)
+  - Locking symfony/polyfill-php80 (v1.30.0)
+  - Locking symfony/polyfill-php81 (v1.30.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 4 installs, 0 updates, 0 removals
+  - Installing symfony/polyfill-php81 (v1.30.0): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.30.0): Extracting archive
+  - Installing psr/log (3.0.0): Extracting archive
+  - Installing mongodb/mongodb (1.19.1): Extracting archive
+Generating autoload files
+2 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found.
+Using version ^1.19 for mongodb/mongodb
+PS C:\wamp64\www\php> ^C
+PS C:\wamp64\www\php> cdd www
+cdd: The term 'cdd' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\wamp64\www\php> cd www
+Set-Location: Cannot find path 'C:\wamp64\www\php\www' because it does not exist.
+PS C:\wamp64\www\php> cd C:\wamp64\www
+PS C:\wamp64\www> d C:\wamp64\www
+d: The term 'd' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\wamp64\www> PS composer init  
+Get-Process: A positional parameter cannot be found that accepts argument 'init'.
+PS C:\wamp64\www> composer require mongodb/mongodb
+No composer.json in current directory, do you want to use the one at C:\wamp64? [Y,n]? y
+Always want to use the parent dir? Use "composer config --global use-parent-dir true" to change the default.
+./composer.json has been updated
+Running composer update mongodb/mongodb
+Loading composer repositories with package information
+Updating dependencies
+Nothing to modify in lock file
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Generating autoload files
+2 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found.
+Using version ^1.19 for mongodb/mongodb
+PS C:\wamp64\www> composer require mongodb/mongodb
+No composer.json in current directory, do you want to use the one at C:\wamp64? [Y,n]? n
+./composer.json has been created
+Running composer update mongodb/mongodb
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 4 installs, 0 updates, 0 removals
+  - Locking mongodb/mongodb (1.19.1)
+  - Locking psr/log (3.0.0)
+  - Locking symfony/polyfill-php80 (v1.30.0)
+  - Locking symfony/polyfill-php81 (v1.30.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 4 installs, 0 updates, 0 removals
+ng archive
+  - Installing psr/log (3.0.0): Extracting archive
+  - Installing mongodb/mongodb (1.19.1): Extracting archive
+Generating autoload files
+2 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found.
+Using version ^1.19 for mongodb/mongodb
+PS C:\wamp64\www>
+ *  History restored 
+
+
+
+
+
+
+ il faut avoir vendor avec mongodb pour lancer le projet sur mongodb

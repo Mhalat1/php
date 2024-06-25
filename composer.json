@@ -1,0 +1,17 @@
+{
+    "name": "administrateur/php",
+    "autoload": {
+        "psr-4": {
+            "Administrateur\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muttalip Halat",
+            "email": "halat@outlook.fr"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.19"
+    }
+}
