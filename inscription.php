@@ -11,6 +11,7 @@ $login = $_POST['login'] ?? '';
 
 if ($login) {
     $collection->insertOne(['login' => $login]);
+    header('Location: connexion.php');
 }
 
 ?>
